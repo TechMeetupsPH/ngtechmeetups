@@ -23,6 +23,7 @@ import { UserlistComponent } from './userlist/userlist.component';
 import { MeetupsComponent } from './meetups/meetups.component';
 import { MeetupComponent } from './meetup/meetup.component';
 import { HeaderComponent } from './modules/header/header.component';
+import { MeetupDetailComponent } from './meetup-detail/meetup-detail.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { HeaderComponent } from './modules/header/header.component';
     MeetupsComponent,
     MeetupComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    MeetupDetailComponent
   ],
   imports: [
     HeaderModule,
